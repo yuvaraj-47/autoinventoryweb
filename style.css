@@ -1,0 +1,128 @@
+
+header{
+    height: 100px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.navbar-brand{
+    font-size: 45px;
+    padding: 18px; 
+}
+
+.container {
+    display: flex;
+    margin-left: 35% auto;
+    background-color: #f2f2f2;
+    justify-content: center;
+    height: calc(100vh - 100px);
+}
+
+.login-form {
+    align-items: center;
+    padding: 40px;
+    display: block;
+}
+.login-form #submit{
+    width: 80px;
+}
+label{
+    width: 100px;
+    display: inline-block;
+}
+
+.home-container {
+  height: calc(100vh - 100px); /* calculate the height of the div element to fill the remaining height */
+  background-color: #f2f2f2; /* set the background color of the div element */
+    display: block;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #bac2ca;
+  padding: 10px;
+}
+
+.sidebar a.active{
+  background-color: #55838A;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+}
+
+nav ul li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+nav ul li a {
+  color: #1a1919;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+nav ul li ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #555;
+  display: none;
+  padding: 10px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+nav ul li ul li:last-child {
+  margin-bottom: 0;
+}
+
+nav ul li ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+nav ul li ul li a:hover {
+  text-decoration: underline;
+}
+
+.display-container{
+    margin-left: 300px;
+    padding-top: 80px;
+}
+.display-container select{
+    padding-right: 80px;
+}
+.display-container select{
+    margin-right: 60px;
+}
+
+ .notification-bar{
+  background-color: rgb(187, 60, 60);
+  
+  padding: 20px;
+  margin-right: 35px;
+  border-radius: 8px;
+}
+ .notification-bar a{
+  text-decoration: none;
+  color: rgb(245, 241, 241);
+ }
+
+ select{
+  width: 180px;
+ }
