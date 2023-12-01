@@ -1,0 +1,1 @@
+This project is one I made in college. It has features for adding, updating, deleting, and viewing data, using HTML, CSS, JavaScript, PHP, and Bootstrap. The SQL file tells you what database name to use and the table names. Thanks for checking out my profile.
